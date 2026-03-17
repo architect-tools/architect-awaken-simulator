@@ -1,0 +1,1086 @@
+{
+  "cells": {
+    "0-5": "n",
+    "0-6": "n",
+    "1-2": "s",
+    "1-3": "n",
+    "1-5": "n",
+    "1-7": "n",
+    "1-8": "s",
+    "2-3": "n",
+    "2-4": "n",
+    "2-7": "n",
+    "2-8": "n",
+    "3-3": "n",
+    "3-4": "s",
+    "3-6": "s",
+    "3-7": "n",
+    "4-3": "n",
+    "4-8": "n",
+    "5-2": "n",
+    "5-3": "s",
+    "5-5": "s",
+    "5-7": "s",
+    "5-8": "n",
+    "6-5": "n",
+    "6-6": "n",
+    "7-2": "n",
+    "7-3": "s",
+    "7-4": "n",
+    "7-6": "n",
+    "7-7": "s",
+    "7-8": "n",
+    "1-10": "i",
+    "2-0": "i",
+    "5-10": "i"
+  },
+  "details": {
+    "0-5": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "0-6": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "1-2": {
+      "stat": "normalAttack",
+      "ov": [
+        4,
+        9,
+        16
+      ],
+      "av": [
+        4,
+        8,
+        15,
+        23,
+        31,
+        40
+      ]
+    },
+    "1-3": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "1-5": {
+      "stat": "monsterCritical",
+      "ov": [
+        1,
+        2,
+        4
+      ],
+      "av": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10
+      ]
+    },
+    "1-7": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "1-8": {
+      "stat": "normalAttackDefense",
+      "ov": [
+        4,
+        9,
+        16
+      ],
+      "av": [
+        4,
+        8,
+        15,
+        23,
+        31,
+        40
+      ]
+    },
+    "2-3": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "2-4": {
+      "stat": "maxMp",
+      "ov": [
+        3,
+        7,
+        12
+      ],
+      "av": [
+        3,
+        6,
+        11,
+        17,
+        23,
+        30
+      ]
+    },
+    "2-7": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "2-8": {
+      "stat": "maxMp",
+      "ov": [
+        3,
+        7,
+        12
+      ],
+      "av": [
+        3,
+        6,
+        11,
+        17,
+        23,
+        30
+      ]
+    },
+    "3-3": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "3-4": {
+      "stat": "skillAccuracy",
+      "ov": [
+        4,
+        9,
+        16
+      ],
+      "av": [
+        4,
+        8,
+        15,
+        23,
+        31,
+        40
+      ]
+    },
+    "3-6": {
+      "stat": "skillEvasion",
+      "ov": [
+        4,
+        9,
+        16
+      ],
+      "av": [
+        4,
+        8,
+        15,
+        23,
+        31,
+        40
+      ]
+    },
+    "3-7": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "4-3": {
+      "stat": "playerAttack",
+      "ov": [
+        2,
+        5,
+        8
+      ],
+      "av": [
+        2,
+        4,
+        8,
+        11,
+        16,
+        20
+      ]
+    },
+    "4-8": {
+      "stat": "playerDefense",
+      "ov": [
+        2,
+        5,
+        8
+      ],
+      "av": [
+        2,
+        4,
+        8,
+        11,
+        16,
+        20
+      ]
+    },
+    "5-2": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "5-3": {
+      "stat": "skillDefense",
+      "ov": [
+        4,
+        9,
+        16
+      ],
+      "av": [
+        4,
+        8,
+        15,
+        23,
+        31,
+        40
+      ]
+    },
+    "5-5": {
+      "stat": "hpPotionRecovery",
+      "ov": [
+        2,
+        4,
+        6
+      ],
+      "av": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ]
+    },
+    "5-7": {
+      "stat": "skillAttack",
+      "ov": [
+        4,
+        9,
+        16
+      ],
+      "av": [
+        4,
+        8,
+        15,
+        23,
+        31,
+        40
+      ]
+    },
+    "5-8": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "6-5": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "6-6": {
+      "stat": "monsterCriticalResist",
+      "ov": [
+        1,
+        2,
+        4
+      ],
+      "av": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10
+      ]
+    },
+    "7-2": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "7-3": {
+      "stat": "normalAttackEvasion",
+      "ov": [
+        4,
+        9,
+        16
+      ],
+      "av": [
+        4,
+        8,
+        15,
+        23,
+        31,
+        40
+      ]
+    },
+    "7-4": {
+      "stat": "maxMp",
+      "ov": [
+        3,
+        7,
+        12
+      ],
+      "av": [
+        3,
+        6,
+        11,
+        17,
+        23,
+        30
+      ]
+    },
+    "7-6": {
+      "stat": "maxHp",
+      "ov": [
+        8,
+        18,
+        32
+      ],
+      "av": [
+        8,
+        17,
+        30,
+        45,
+        62,
+        80
+      ]
+    },
+    "7-7": {
+      "stat": "normalAttackAccuracy",
+      "ov": [
+        4,
+        9,
+        16
+      ],
+      "av": [
+        4,
+        8,
+        15,
+        23,
+        31,
+        40
+      ]
+    },
+    "7-8": {
+      "stat": "maxMp",
+      "ov": [
+        3,
+        7,
+        12
+      ],
+      "av": [
+        3,
+        6,
+        11,
+        17,
+        23,
+        30
+      ]
+    }
+  },
+  "settings": {
+    "normalOpenAnima": [
+      13,
+      26,
+      39
+    ],
+    "normalOpenAnimaGrade": [
+      1,
+      1,
+      1
+    ],
+    "normalOpenGold": [
+      8000,
+      16000,
+      24000
+    ],
+    "specialOpenAnima": [
+      32,
+      64,
+      96
+    ],
+    "specialOpenAnimaGrade": [
+      1,
+      1,
+      1
+    ],
+    "specialOpenGold": [
+      8000,
+      16000,
+      24000
+    ],
+    "normalAwakeningAnima": 13,
+    "normalAwakeningAnimaGrade": 2,
+    "specialAwakeningAnima": 32,
+    "specialAwakeningAnimaGrade": 2,
+    "normalAwakeningGold": 8000,
+    "specialAwakeningGold": 8000
+  },
+  "rewards": [
+    {
+      "threshold": 31,
+      "effects": [
+        {
+          "statType": "normalAttackDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 47,
+      "effects": [
+        {
+          "statType": "skillAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 54,
+      "effects": [
+        {
+          "statType": "monsterCriticalResist",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "threshold": 60,
+      "effects": [
+        {
+          "statType": "normalAttackAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 65,
+      "effects": [
+        {
+          "statType": "monsterCritical",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "threshold": 70,
+      "effects": [
+        {
+          "statType": "playerDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 74,
+      "effects": [
+        {
+          "statType": "monsterDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 78,
+      "effects": [
+        {
+          "statType": "normalAttackEvasion",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 82,
+      "effects": [
+        {
+          "statType": "skillCriticalResist",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 86,
+      "effects": [
+        {
+          "statType": "monsterDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 90,
+      "effects": [
+        {
+          "statType": "normalAttackCritical",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 94,
+      "effects": [
+        {
+          "statType": "skillEvasion",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 98,
+      "effects": [
+        {
+          "statType": "playerAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 102,
+      "effects": [
+        {
+          "statType": "monsterAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 106,
+      "effects": [
+        {
+          "statType": "normalAttackCriticalResist",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 110,
+      "effects": [
+        {
+          "statType": "skillAttack",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 114,
+      "effects": [
+        {
+          "statType": "monsterEvasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 117,
+      "effects": [
+        {
+          "statType": "normalAttack",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 120,
+      "effects": [
+        {
+          "statType": "skillCriticalResist",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 123,
+      "effects": [
+        {
+          "statType": "normalAttackDefense",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 126,
+      "effects": [
+        {
+          "statType": "monsterCritical",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 129,
+      "effects": [
+        {
+          "statType": "playerAccuracy",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 132,
+      "effects": [
+        {
+          "statType": "skillAccuracy",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 135,
+      "effects": [
+        {
+          "statType": "monsterCriticalResist",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 138,
+      "effects": [
+        {
+          "statType": "monsterAttack",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 140,
+      "effects": [
+        {
+          "statType": "playerCriticalResist",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 142,
+      "effects": [
+        {
+          "statType": "monsterAccuracy",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 144,
+      "effects": [
+        {
+          "statType": "monsterAttack",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 146,
+      "effects": [
+        {
+          "statType": "playerAccuracy",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 148,
+      "effects": [
+        {
+          "statType": "skillCriticalResist",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 150,
+      "effects": [
+        {
+          "statType": "monsterDefense",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "threshold": 152,
+      "effects": [
+        {
+          "statType": "normalAttackCritical",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 154,
+      "effects": [
+        {
+          "statType": "skillEvasion",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "threshold": 156,
+      "effects": [
+        {
+          "statType": "playerCritical",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 157,
+      "effects": [
+        {
+          "statType": "monsterAccuracy",
+          "value": 20
+        },
+        {
+          "statType": "playerCriticalResist",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "threshold": 158,
+      "effects": [
+        {
+          "statType": "normalAttackCriticalResist",
+          "value": 15
+        },
+        {
+          "statType": "normalAttackEvasion",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 159,
+      "effects": [
+        {
+          "statType": "skillAttack",
+          "value": 30
+        },
+        {
+          "statType": "monsterEvasion",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 160,
+      "effects": [
+        {
+          "statType": "monsterEvasion",
+          "value": 30
+        },
+        {
+          "statType": "monsterCriticalResist",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "threshold": 161,
+      "effects": [
+        {
+          "statType": "normalAttack",
+          "value": 30
+        },
+        {
+          "statType": "playerCritical",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "threshold": 162,
+      "effects": [
+        {
+          "statType": "skillEvasion",
+          "value": 30
+        },
+        {
+          "statType": "skillAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 163,
+      "effects": [
+        {
+          "statType": "playerEvasion",
+          "value": 35
+        },
+        {
+          "statType": "monsterAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 164,
+      "effects": [
+        {
+          "statType": "monsterCritical",
+          "value": 15
+        },
+        {
+          "statType": "skillAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 165,
+      "effects": [
+        {
+          "statType": "normalAttackDefense",
+          "value": 35
+        },
+        {
+          "statType": "normalAttackAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 166,
+      "effects": [
+        {
+          "statType": "skillAccuracy",
+          "value": 35
+        },
+        {
+          "statType": "skillCriticalResist",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 167,
+      "effects": [
+        {
+          "statType": "monsterCriticalResist",
+          "value": 15
+        },
+        {
+          "statType": "normalAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 168,
+      "effects": [
+        {
+          "statType": "normalAttackAccuracy",
+          "value": 45
+        },
+        {
+          "statType": "monsterCritical",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "threshold": 169,
+      "effects": [
+        {
+          "statType": "skillDefense",
+          "value": 45
+        },
+        {
+          "statType": "skillDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 170,
+      "effects": [
+        {
+          "statType": "playerDefense",
+          "value": 55
+        },
+        {
+          "statType": "playerCriticalResist",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 171,
+      "effects": [
+        {
+          "statType": "skillCritical",
+          "value": 20
+        },
+        {
+          "statType": "normalAttackCritical",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 172,
+      "effects": [
+        {
+          "statType": "normalAttackEvasion",
+          "value": 45
+        },
+        {
+          "statType": "normalAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 173,
+      "effects": [
+        {
+          "statType": "playerAttack",
+          "value": 55
+        },
+        {
+          "statType": "playerAccuracy",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8726 @@
+{
+  "1": {
+    "cells": {
+      "1-3": "n",
+      "1-6": "n",
+      "2-3": "n",
+      "2-7": "n",
+      "3-2": "n",
+      "3-7": "n",
+      "4-3": "n",
+      "4-7": "n",
+      "5-2": "n",
+      "5-4": "n",
+      "5-5": "n",
+      "5-7": "n",
+      "6-3": "n",
+      "6-4": "n",
+      "6-6": "n",
+      "6-7": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "1-6": {
+        "stat": "normalAttackDefense",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "2-3": {
+        "stat": "hp",
+        "ov": [
+          4,
+          8,
+          12
+        ],
+        "av": [
+          4,
+          12,
+          20,
+          32,
+          44,
+          60
+        ]
+      },
+      "2-7": {
+        "stat": "playerAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "3-2": {
+        "stat": "hpNaturalRecovery",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "3-7": {
+        "stat": "maxMp",
+        "ov": [
+          2,
+          3,
+          5
+        ],
+        "av": [
+          2,
+          5,
+          8,
+          12,
+          17,
+          23
+        ]
+      },
+      "4-3": {
+        "stat": "mpNaturalRecovery",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "4-7": {
+        "stat": "hpPotionRecovery",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "5-2": {
+        "stat": "mp",
+        "ov": [
+          2,
+          3,
+          5
+        ],
+        "av": [
+          2,
+          5,
+          8,
+          12,
+          17,
+          23
+        ]
+      },
+      "5-4": {
+        "stat": "playerDefense",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "5-5": {
+        "stat": "maxHp",
+        "ov": [
+          4,
+          8,
+          12
+        ],
+        "av": [
+          4,
+          12,
+          20,
+          32,
+          44,
+          60
+        ]
+      },
+      "5-7": {
+        "stat": "maxMp",
+        "ov": [
+          2,
+          3,
+          5
+        ],
+        "av": [
+          2,
+          5,
+          8,
+          12,
+          17,
+          23
+        ]
+      },
+      "6-3": {
+        "stat": "hp",
+        "ov": [
+          4,
+          8,
+          12
+        ],
+        "av": [
+          4,
+          12,
+          20,
+          32,
+          44,
+          60
+        ]
+      },
+      "6-4": {
+        "stat": "skillAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "6-6": {
+        "stat": "skillDefense",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "6-7": {
+        "stat": "maxHp",
+        "ov": [
+          4,
+          8,
+          12
+        ],
+        "av": [
+          4,
+          12,
+          20,
+          32,
+          44,
+          60
+        ]
+      }
+    },
+    "rewards": [
+      {
+        "threshold": 14,
+        "effects": [
+          {
+            "statType": "monsterAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 23,
+        "effects": [
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 28,
+        "effects": [
+          {
+            "statType": "skillCritical",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "threshold": 31,
+        "effects": [
+          {
+            "statType": "hpNaturalRecovery",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "threshold": 34,
+        "effects": [
+          {
+            "statType": "monsterAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 37,
+        "effects": [
+          {
+            "statType": "normalAttackCritical",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "threshold": 39,
+        "effects": [
+          {
+            "statType": "hpPotionRecoveryRate",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "threshold": 42,
+        "effects": [
+          {
+            "statType": "monsterAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 44,
+        "effects": [
+          {
+            "statType": "skillAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 46,
+        "effects": [
+          {
+            "statType": "monsterAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 48,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 50,
+        "effects": [
+          {
+            "statType": "skillAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 51,
+        "effects": [
+          {
+            "statType": "monsterDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 53,
+        "effects": [
+          {
+            "statType": "normalAttackCritical",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "threshold": 55,
+        "effects": [
+          {
+            "statType": "monsterAccuracy",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 56,
+        "effects": [
+          {
+            "statType": "skillCritical",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 58,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 59,
+        "effects": [
+          {
+            "statType": "skillDefense",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 61,
+        "effects": [
+          {
+            "statType": "normalAttackDefense",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 62,
+        "effects": [
+          {
+            "statType": "skillAttack",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 64,
+        "effects": [
+          {
+            "statType": "hpPotionRecovery",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "threshold": 65,
+        "effects": [
+          {
+            "statType": "normalAttackCriticalResist",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 66,
+        "effects": [
+          {
+            "statType": "skillAccuracy",
+            "value": 15
+          },
+          {
+            "statType": "skillEvasion",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "threshold": 68,
+        "effects": [
+          {
+            "statType": "skillCriticalResist",
+            "value": 10
+          },
+          {
+            "statType": "normalAttackDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 69,
+        "effects": [
+          {
+            "statType": "maxHp",
+            "value": 90
+          },
+          {
+            "statType": "skillCritical",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "threshold": 70,
+        "effects": [
+          {
+            "statType": "monsterAttack",
+            "value": 20
+          },
+          {
+            "statType": "skillDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 71,
+        "effects": [
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 20
+          },
+          {
+            "statType": "normalAttackCritical",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "threshold": 73,
+        "effects": [
+          {
+            "statType": "hpPotionRecoveryRate",
+            "value": 1.5
+          },
+          {
+            "statType": "hpNaturalRecovery",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "threshold": 74,
+        "effects": [
+          {
+            "statType": "monsterEvasion",
+            "value": 25
+          },
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 8
+          }
+        ]
+      },
+      {
+        "threshold": 75,
+        "effects": [
+          {
+            "statType": "normalAttackEvasion",
+            "value": 25
+          },
+          {
+            "statType": "monsterAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 76,
+        "effects": [
+          {
+            "statType": "monsterDefense",
+            "value": 30
+          },
+          {
+            "statType": "monsterAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 77,
+        "effects": [
+          {
+            "statType": "mpNaturalRecovery",
+            "value": 10
+          },
+          {
+            "statType": "normalAttackEvasion",
+            "value": 8
+          }
+        ]
+      },
+      {
+        "threshold": 79,
+        "effects": [
+          {
+            "statType": "skillEvasion",
+            "value": 30
+          },
+          {
+            "statType": "normalAttackCriticalResist",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 80,
+        "effects": [
+          {
+            "statType": "hpPotionRecoveryRate",
+            "value": 2
+          },
+          {
+            "statType": "skillAccuracy",
+            "value": 13
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "normalOpenAnima": [
+        2,
+        4,
+        6
+      ],
+      "normalOpenAnimaGrade": [
+        1,
+        1,
+        1
+      ],
+      "normalOpenGold": [
+        500,
+        800,
+        1200
+      ],
+      "specialOpenAnima": [
+        4,
+        8,
+        12
+      ],
+      "specialOpenAnimaGrade": [
+        1,
+        1,
+        1
+      ],
+      "specialOpenGold": [
+        800,
+        1300,
+        2000
+      ],
+      "normalAwakeningAnima": 1,
+      "normalAwakeningAnimaGrade": 1,
+      "specialAwakeningAnima": 2,
+      "specialAwakeningAnimaGrade": 1,
+      "normalAwakeningGold": 1000,
+      "specialAwakeningGold": 1000
+    }
+  },
+  "2": {
+    "cells": {
+      "2-3": "n",
+      "2-7": "n",
+      "3-3": "n",
+      "3-4": "n",
+      "3-6": "n",
+      "4-4": "n",
+      "4-5": "s",
+      "4-6": "n",
+      "5-3": "n",
+      "5-5": "n",
+      "5-6": "n",
+      "6-3": "n",
+      "6-7": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "2-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "2-7": {
+        "stat": "monsterDefense",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "3-3": {
+        "stat": "hpPotionRecovery",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "3-4": {
+        "stat": "playerAccuracy",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "3-6": {
+        "stat": "hpNaturalRecovery",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "4-4": {
+        "stat": "maxMp",
+        "ov": [
+          2,
+          3,
+          5
+        ],
+        "av": [
+          2,
+          5,
+          8,
+          12,
+          17,
+          23
+        ]
+      },
+      "4-5": {
+        "stat": "mpNaturalRecovery",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      "4-6": {
+        "stat": "maxHp",
+        "ov": [
+          4,
+          8,
+          12
+        ],
+        "av": [
+          4,
+          12,
+          20,
+          32,
+          44,
+          60
+        ]
+      },
+      "5-3": {
+        "stat": "maxMp",
+        "ov": [
+          2,
+          3,
+          5
+        ],
+        "av": [
+          2,
+          5,
+          8,
+          12,
+          17,
+          23
+        ]
+      },
+      "5-5": {
+        "stat": "playerEvasion",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "5-6": {
+        "stat": "maxHp",
+        "ov": [
+          4,
+          8,
+          12
+        ],
+        "av": [
+          4,
+          12,
+          20,
+          32,
+          44,
+          60
+        ]
+      },
+      "6-3": {
+        "stat": "normalAttackAccuracy",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      },
+      "6-7": {
+        "stat": "normalAttackEvasion",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          3,
+          5,
+          8,
+          11,
+          15
+        ]
+      }
+    },
+    "settings": {
+      "normalOpenAnima": [
+        2,
+        4,
+        6
+      ],
+      "normalOpenAnimaGrade": [
+        1,
+        1,
+        1
+      ],
+      "normalOpenGold": [
+        1500,
+        3000,
+        4500
+      ],
+      "specialOpenAnima": [
+        4,
+        8,
+        12
+      ],
+      "specialOpenAnimaGrade": [
+        1,
+        1,
+        1
+      ],
+      "specialOpenGold": [
+        1500,
+        3000,
+        4500
+      ],
+      "normalAwakeningAnima": 2,
+      "normalAwakeningAnimaGrade": 1,
+      "specialAwakeningAnima": 5,
+      "specialAwakeningAnimaGrade": 1,
+      "normalAwakeningGold": 1500,
+      "specialAwakeningGold": 1500
+    },
+    "rewards": [
+      {
+        "threshold": 12,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 23,
+        "effects": [
+          {
+            "statType": "skillDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 28,
+        "effects": [
+          {
+            "statType": "normalAttackDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 33,
+        "effects": [
+          {
+            "statType": "skillAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 37,
+        "effects": [
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 41,
+        "effects": [
+          {
+            "statType": "hpPotionRecovery",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "threshold": 44,
+        "effects": [
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 47,
+        "effects": [
+          {
+            "statType": "skillEvasion",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 50,
+        "effects": [
+          {
+            "statType": "normalAttackEvasion",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 53,
+        "effects": [
+          {
+            "statType": "skillAccuracy",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 56,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 58,
+        "effects": [
+          {
+            "statType": "skillAttack",
+            "value": 20
+          },
+          {
+            "statType": "skillAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 60,
+        "effects": [
+          {
+            "statType": "playerDefense",
+            "value": 20
+          },
+          {
+            "statType": "skillAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 62,
+        "effects": [
+          {
+            "statType": "normalAttackDefense",
+            "value": 25
+          },
+          {
+            "statType": "normalAttackEvasion",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 63,
+        "effects": [
+          {
+            "statType": "skillDefense",
+            "value": 25
+          },
+          {
+            "statType": "skillEvasion",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 64,
+        "effects": [
+          {
+            "statType": "playerAttack",
+            "value": 25
+          },
+          {
+            "statType": "playerDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 65,
+        "effects": [
+          {
+            "statType": "hpPotionRecoveryRate",
+            "value": 2
+          },
+          {
+            "statType": "normalAttack",
+            "value": 10
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "cells": {
+      "1-3": "n",
+      "1-4": "n",
+      "1-6": "n",
+      "1-7": "n",
+      "2-3": "n",
+      "2-5": "n",
+      "2-6": "n",
+      "2-8": "n",
+      "3-3": "n",
+      "3-4": "s",
+      "3-6": "s",
+      "3-7": "n",
+      "4-4": "n",
+      "4-7": "n",
+      "5-4": "n",
+      "5-5": "n",
+      "5-6": "n",
+      "6-5": "n",
+      "6-6": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-3": {
+        "stat": "skillAccuracy",
+        "ov": [
+          2,
+          5,
+          8
+        ],
+        "av": [
+          2,
+          4,
+          8,
+          11,
+          16,
+          20
+        ]
+      },
+      "1-4": {
+        "stat": "monsterAccuracy",
+        "ov": [
+          2,
+          5,
+          8
+        ],
+        "av": [
+          2,
+          4,
+          8,
+          11,
+          16,
+          20
+        ]
+      },
+      "1-6": {
+        "stat": "maxHp",
+        "ov": [
+          8,
+          18,
+          32
+        ],
+        "av": [
+          8,
+          17,
+          30,
+          45,
+          62,
+          80
+        ]
+      },
+      "1-7": {
+        "stat": "monsterEvasion",
+        "ov": [
+          2,
+          5,
+          8
+        ],
+        "av": [
+          2,
+          4,
+          8,
+          11,
+          16,
+          20
+        ]
+      },
+      "2-3": {
+        "stat": "skillEvasion",
+        "ov": [
+          2,
+          5,
+          8
+        ],
+        "av": [
+          2,
+          4,
+          8,
+          11,
+          16,
+          20
+        ]
+      },
+      "2-5": {
+        "stat": "playerCritical",
+        "ov": [
+          1,
+          2,
+          4
+        ],
+        "av": [
+          1,
+          2,
+          4,
+          6,
+          8,
+          10
+        ]
+      },
+      "2-6": {
+        "stat": "maxHp",
+        "ov": [
+          8,
+          18,
+          32
+        ],
+        "av": [
+          8,
+          17,
+          30,
+          45,
+          62,
+          80
+        ]
+      },
+      "2-8": {
+        "stat": "maxMp",
+        "ov": [
+          3,
+          7,
+          12
+        ],
+        "av": [
+          3,
+          6,
+          11,
+          17,
+          23,
+          30
+        ]
+      },
+      "3-3": {
+        "stat": "playerCriticalResist",
+        "ov": [
+          1,
+          2,
+          4
+        ],
+        "av": [
+          1,
+          2,
+          4,
+          6,
+          8,
+          10
+        ]
+      },
+      "3-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          4,
+          9,
+          16
+        ],
+        "av": [
+          4,
+          8,
+          15,
+          23,
+          31,
+          40
+        ]
+      },
+      "3-6": {
+        "stat": "monsterDefense",
+        "ov": [
+          4,
+          9,
+          16
+        ],
+        "av": [
+          4,
+          8,
+          15,
+          23,
+          31,
+          40
+        ]
+      },
+      "3-7": {
+        "stat": "maxMp",
+        "ov": [
+          3,
+          7,
+          12
+        ],
+        "av": [
+          3,
+          6,
+          11,
+          17,
+          23,
+          30
+        ]
+      },
+      "4-4": {
+        "stat": "maxMp",
+        "ov": [
+          3,
+          7,
+          12
+        ],
+        "av": [
+          3,
+          6,
+          11,
+          17,
+          23,
+          30
+        ]
+      },
+      "4-7": {
+        "stat": "maxHp",
+        "ov": [
+          8,
+          18,
+          32
+        ],
+        "av": [
+          8,
+          17,
+          30,
+          45,
+          62,
+          80
+        ]
+      },
+      "5-4": {
+        "stat": "normalAttackAccuracy",
+        "ov": [
+          2,
+          5,
+          8
+        ],
+        "av": [
+          2,
+          4,
+          8,
+          11,
+          16,
+          20
+        ]
+      },
+      "5-5": {
+        "stat": "hpPotionRecovery",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "5-6": {
+        "stat": "maxHp",
+        "ov": [
+          8,
+          18,
+          32
+        ],
+        "av": [
+          8,
+          17,
+          30,
+          45,
+          62,
+          80
+        ]
+      },
+      "6-5": {
+        "stat": "maxMp",
+        "ov": [
+          3,
+          7,
+          12
+        ],
+        "av": [
+          3,
+          6,
+          11,
+          17,
+          23,
+          30
+        ]
+      },
+      "6-6": {
+        "stat": "normalAttackEvasion",
+        "ov": [
+          2,
+          5,
+          8
+        ],
+        "av": [
+          2,
+          4,
+          8,
+          11,
+          16,
+          20
+        ]
+      }
+    },
+    "settings": {
+      "normalOpenAnima": [
+        3,
+        6,
+        9
+      ],
+      "normalOpenAnimaGrade": [
+        2,
+        2,
+        2
+      ],
+      "normalOpenGold": [
+        2000,
+        4000,
+        6000
+      ],
+      "specialOpenAnima": [
+        6,
+        12,
+        18
+      ],
+      "specialOpenAnimaGrade": [
+        2,
+        2,
+        2
+      ],
+      "specialOpenGold": [
+        2000,
+        4000,
+        6000
+      ],
+      "normalAwakeningAnima": 3,
+      "normalAwakeningAnimaGrade": 2,
+      "specialAwakeningAnima": 6,
+      "specialAwakeningAnimaGrade": 2,
+      "normalAwakeningGold": 2000,
+      "specialAwakeningGold": 2000
+    },
+    "rewards": [
+      {
+        "threshold": 20,
+        "effects": [
+          {
+            "statType": "monsterAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 33,
+        "effects": [
+          {
+            "statType": "normalAttackDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 39,
+        "effects": [
+          {
+            "statType": "playerAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 43,
+        "effects": [
+          {
+            "statType": "monsterCriticalResist",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "threshold": 47,
+        "effects": [
+          {
+            "statType": "accuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 51,
+        "effects": [
+          {
+            "statType": "monsterEvasion",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 54,
+        "effects": [
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 58,
+        "effects": [
+          {
+            "statType": "monsterAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 60,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 63,
+        "effects": [
+          {
+            "statType": "mpNaturalRecovery",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "threshold": 66,
+        "effects": [
+          {
+            "statType": "monsterCritical",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 68,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 71,
+        "effects": [
+          {
+            "statType": "hpPotionRecovery",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "threshold": 73,
+        "effects": [
+          {
+            "statType": "monsterAttack",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 75,
+        "effects": [
+          {
+            "statType": "evasion",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 78,
+        "effects": [
+          {
+            "statType": "playerEvasion",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 80,
+        "effects": [
+          {
+            "statType": "skillAttack",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 82,
+        "effects": [
+          {
+            "statType": "monsterAccuracy",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 84,
+        "effects": [
+          {
+            "statType": "evasion",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 86,
+        "effects": [
+          {
+            "statType": "mpNaturalRecovery",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 88,
+        "effects": [
+          {
+            "statType": "monsterDefense",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "threshold": 89,
+        "effects": [
+          {
+            "statType": "normalAttackDefense",
+            "value": 20
+          },
+          {
+            "statType": "monsterCriticalResist",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "threshold": 91,
+        "effects": [
+          {
+            "statType": "playerAccuracy",
+            "value": 20
+          },
+          {
+            "statType": "playerDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 93,
+        "effects": [
+          {
+            "statType": "skillDefense",
+            "value": 25
+          },
+          {
+            "statType": "monsterDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 95,
+        "effects": [
+          {
+            "statType": "mpNaturalRecovery",
+            "value": 5
+          },
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 97,
+        "effects": [
+          {
+            "statType": "skillAccuracy",
+            "value": 30
+          },
+          {
+            "statType": "playerAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 98,
+        "effects": [
+          {
+            "statType": "hpPotionRecovery",
+            "value": 5
+          },
+          {
+            "statType": "skillEvasion",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 100,
+        "effects": [
+          {
+            "statType": "skillEvasion",
+            "value": 35
+          },
+          {
+            "statType": "normalAttack",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 102,
+        "effects": [
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 35
+          },
+          {
+            "statType": "hpPotionRecovery",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "threshold": 103,
+        "effects": [
+          {
+            "statType": "accuracy",
+            "value": 35
+          },
+          {
+            "statType": "evasion",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 105,
+        "effects": [
+          {
+            "statType": "playerAttack",
+            "value": 45
+          },
+          {
+            "statType": "playerEvasion",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 106,
+        "effects": [
+          {
+            "statType": "normalAttackEvasion",
+            "value": 45
+          },
+          {
+            "statType": "skillAttack",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 108,
+        "effects": [
+          {
+            "statType": "playerDefense",
+            "value": 45
+          },
+          {
+            "statType": "monsterEvasion",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 109,
+        "effects": [
+          {
+            "statType": "hpPotionRecoveryRate",
+            "value": 3
+          },
+          {
+            "statType": "skillAccuracy",
+            "value": 15
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "cells": {
+      "0-4": "n",
+      "0-5": "n",
+      "0-6": "n",
+      "1-3": "n",
+      "1-6": "s",
+      "2-3": "n",
+      "2-6": "n",
+      "2-7": "n",
+      "2-8": "n",
+      "3-2": "n",
+      "3-7": "n",
+      "3-8": "s",
+      "4-2": "n",
+      "4-7": "n",
+      "5-1": "n",
+      "5-6": "s",
+      "6-1": "n",
+      "6-2": "n",
+      "6-3": "n",
+      "6-4": "s",
+      "6-5": "n",
+      "6-6": "n",
+      "7-4": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "0-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          3,
+          7,
+          11
+        ],
+        "av": [
+          3,
+          6,
+          10,
+          16,
+          23,
+          30
+        ]
+      },
+      "0-5": {
+        "stat": "maxHp",
+        "ov": [
+          12,
+          28,
+          44
+        ],
+        "av": [
+          12,
+          24,
+          40,
+          64,
+          92,
+          120
+        ]
+      },
+      "0-6": {
+        "stat": "playerAttack",
+        "ov": [
+          3,
+          7,
+          11
+        ],
+        "av": [
+          3,
+          6,
+          10,
+          16,
+          23,
+          30
+        ]
+      },
+      "1-3": {
+        "stat": "maxHp",
+        "ov": [
+          12,
+          28,
+          44
+        ],
+        "av": [
+          12,
+          24,
+          40,
+          64,
+          92,
+          120
+        ]
+      },
+      "1-6": {
+        "stat": "defense",
+        "ov": [
+          6,
+          14,
+          22
+        ],
+        "av": [
+          6,
+          12,
+          20,
+          32,
+          46,
+          60
+        ]
+      },
+      "2-3": {
+        "stat": "maxMp",
+        "ov": [
+          5,
+          11,
+          17
+        ],
+        "av": [
+          5,
+          9,
+          15,
+          24,
+          35,
+          45
+        ]
+      },
+      "2-6": {
+        "stat": "maxHp",
+        "ov": [
+          12,
+          28,
+          44
+        ],
+        "av": [
+          12,
+          24,
+          40,
+          64,
+          92,
+          120
+        ]
+      },
+      "2-7": {
+        "stat": "normalAttackCritical",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          2,
+          3,
+          5,
+          8,
+          12,
+          15
+        ]
+      },
+      "2-8": {
+        "stat": "maxHp",
+        "ov": [
+          12,
+          28,
+          44
+        ],
+        "av": [
+          12,
+          24,
+          40,
+          64,
+          92,
+          120
+        ]
+      },
+      "3-2": {
+        "stat": "hpPotionRecovery",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "3-7": {
+        "stat": "maxMp",
+        "ov": [
+          5,
+          11,
+          17
+        ],
+        "av": [
+          5,
+          9,
+          15,
+          24,
+          35,
+          45
+        ]
+      },
+      "3-8": {
+        "stat": "playerAttack",
+        "ov": [
+          3,
+          7,
+          11
+        ],
+        "av": [
+          63,
+          6,
+          10,
+          16,
+          23,
+          30
+        ]
+      },
+      "4-2": {
+        "stat": "maxHp",
+        "ov": [
+          12,
+          28,
+          44
+        ],
+        "av": [
+          12,
+          24,
+          40,
+          64,
+          92,
+          120
+        ]
+      },
+      "4-7": {
+        "stat": "playerDefense",
+        "ov": [
+          3,
+          7,
+          11
+        ],
+        "av": [
+          34,
+          6,
+          10,
+          16,
+          23,
+          30
+        ]
+      },
+      "5-1": {
+        "stat": "hpNaturalRecovery",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "5-6": {
+        "stat": "evasion",
+        "ov": [
+          6,
+          14,
+          22
+        ],
+        "av": [
+          6,
+          12,
+          20,
+          32,
+          46,
+          60
+        ]
+      },
+      "6-1": {
+        "stat": "monsterDefense",
+        "ov": [
+          3,
+          7,
+          11
+        ],
+        "av": [
+          3,
+          6,
+          10,
+          16,
+          23,
+          30
+        ]
+      },
+      "6-2": {
+        "stat": "maxMp",
+        "ov": [
+          5,
+          11,
+          17
+        ],
+        "av": [
+          5,
+          9,
+          15,
+          24,
+          35,
+          45
+        ]
+      },
+      "6-3": {
+        "stat": "skillCriticalResist",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          2,
+          3,
+          5,
+          8,
+          12,
+          15
+        ]
+      },
+      "6-4": {
+        "stat": "accuracy",
+        "ov": [
+          6,
+          14,
+          22
+        ],
+        "av": [
+          6,
+          12,
+          20,
+          32,
+          46,
+          60
+        ]
+      },
+      "6-5": {
+        "stat": "maxHp",
+        "ov": [
+          12,
+          28,
+          44
+        ],
+        "av": [
+          12,
+          24,
+          40,
+          64,
+          92,
+          120
+        ]
+      },
+      "6-6": {
+        "stat": "normalAttackCriticalResist",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          2,
+          3,
+          5,
+          8,
+          12,
+          15
+        ]
+      },
+      "7-4": {
+        "stat": "skillCritical",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          2,
+          3,
+          5,
+          8,
+          12,
+          15
+        ]
+      }
+    },
+    "settings": {
+      "normalOpenAnima": [
+        3,
+        6,
+        9
+      ],
+      "normalOpenAnimaGrade": [
+        3,
+        3,
+        3
+      ],
+      "normalOpenGold": [
+        3000,
+        6000,
+        9000
+      ],
+      "specialOpenAnima": [
+        6,
+        12,
+        18
+      ],
+      "specialOpenAnimaGrade": [
+        3,
+        3,
+        3
+      ],
+      "specialOpenGold": [
+        3000,
+        6000,
+        9000
+      ],
+      "normalAwakeningAnima": 3,
+      "normalAwakeningAnimaGrade": 3,
+      "specialAwakeningAnima": 6,
+      "specialAwakeningAnimaGrade": 3,
+      "normalAwakeningGold": 3000,
+      "specialAwakeningGold": 3000
+    },
+    "rewards": [
+      {
+        "threshold": 24,
+        "effects": [
+          {
+            "statType": "defense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 39,
+        "effects": [
+          {
+            "statType": "normalAttackEvasion",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 51,
+        "effects": [
+          {
+            "statType": "normalAttackDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 56,
+        "effects": [
+          {
+            "statType": "skillDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 61,
+        "effects": [
+          {
+            "statType": "criticalResist",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 66,
+        "effects": [
+          {
+            "statType": "skillAccuracy",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 70,
+        "effects": [
+          {
+            "statType": "normalAttackCritical",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 74,
+        "effects": [
+          {
+            "statType": "monsterAttack",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 78,
+        "effects": [
+          {
+            "statType": "skillAttackIgnore",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 82,
+        "effects": [
+          {
+            "statType": "normalAttackEvasion",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 86,
+        "effects": [
+          {
+            "statType": "critical",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 90,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 93,
+        "effects": [
+          {
+            "statType": "monsterCriticalResist",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 96,
+        "effects": [
+          {
+            "statType": "hpPotionRecoveryRate",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "threshold": 99,
+        "effects": [
+          {
+            "statType": "skillAttackIgnore",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 102,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "threshold": 105,
+        "effects": [
+          {
+            "statType": "skillAccuracy",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "threshold": 108,
+        "effects": [
+          {
+            "statType": "playerDefense",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "threshold": 111,
+        "effects": [
+          {
+            "statType": "normalAttackCritical",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 114,
+        "effects": [
+          {
+            "statType": "attack",
+            "value": 20
+          },
+          {
+            "statType": "normalAttackDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 116,
+        "effects": [
+          {
+            "statType": "normalAttackAccuracy",
+            "value": 25
+          },
+          {
+            "statType": "normalAttackEvasion",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 118,
+        "effects": [
+          {
+            "statType": "skillEvasion",
+            "value": 25
+          },
+          {
+            "statType": "skillDefense",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 120,
+        "effects": [
+          {
+            "statType": "normalAttack",
+            "value": 25
+          },
+          {
+            "statType": "normalAttackEvasion",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 122,
+        "effects": [
+          {
+            "statType": "skillCriticalResist",
+            "value": 15
+          },
+          {
+            "statType": "monsterCritical",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 123,
+        "effects": [
+          {
+            "statType": "defense",
+            "value": 35
+          },
+          {
+            "statType": "playerAttack",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "threshold": 124,
+        "effects": [
+          {
+            "statType": "skillCritical",
+            "value": 15
+          },
+          {
+            "statType": "skillDefense",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 125,
+        "effects": [
+          {
+            "statType": "normalAttackIgnore",
+            "value": 40
+          },
+          {
+            "statType": "monsterDefense",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 126,
+        "effects": [
+          {
+            "statType": "hpPotionRecoveryRate",
+            "value": 2
+          },
+          {
+            "statType": "normalAttackCriticalResist",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "threshold": 127,
+        "effects": [
+          {
+            "statType": "skillDefense",
+            "value": 40
+          },
+          {
+            "statType": "normalAttack",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 128,
+        "effects": [
+          {
+            "statType": "attack",
+            "value": 40
+          },
+          {
+            "statType": "defense",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 129,
+        "effects": [
+          {
+            "statType": "normalAttackDefIgnore",
+            "value": 50
+          },
+          {
+            "statType": "normalAttackIgnore",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 130,
+        "effects": [
+          {
+            "statType": "skillDefIgnore",
+            "value": 50
+          },
+          {
+            "statType": "defense",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 131,
+        "effects": [
+          {
+            "statType": "normalAttackDefense",
+            "value": 50
+          },
+          {
+            "statType": "normalAttackCriticalResist",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "threshold": 132,
+        "effects": [
+          {
+            "statType": "skillAttack",
+            "value": 60
+          },
+          {
+            "statType": "normalAttackIgnore",
+            "value": 25
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "cells": {
+      "1-4": "n",
+      "1-5": "n",
+      "2-4": "n",
+      "2-5": "s",
+      "2-6": "n",
+      "3-3": "n",
+      "3-6": "n",
+      "4-3": "n",
+      "4-4": "s",
+      "4-6": "s",
+      "4-7": "n",
+      "5-3": "n",
+      "5-6": "n",
+      "6-2": "n",
+      "6-4": "n",
+      "6-5": "s",
+      "6-6": "n",
+      "6-8": "n",
+      "7-1": "n",
+      "7-2": "n",
+      "7-3": "n",
+      "7-6": "n",
+      "7-7": "n",
+      "7-8": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "2-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-6": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "6-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "6": {
+    "cells": {
+      "1-2": "n",
+      "1-4": "n",
+      "1-5": "s",
+      "1-6": "n",
+      "1-8": "n",
+      "2-2": "n",
+      "2-3": "n",
+      "2-8": "n",
+      "2-9": "n",
+      "3-2": "n",
+      "3-4": "n",
+      "3-5": "s",
+      "3-6": "n",
+      "3-8": "n",
+      "4-2": "n",
+      "4-3": "n",
+      "4-5": "n",
+      "4-6": "n",
+      "4-8": "n",
+      "4-9": "n",
+      "5-2": "n",
+      "5-8": "n",
+      "6-3": "n",
+      "6-4": "s",
+      "6-7": "s",
+      "6-8": "n",
+      "7-3": "n",
+      "7-4": "n",
+      "7-5": "n",
+      "7-6": "n",
+      "7-7": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-9": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "3-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-9": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "6-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "6-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "7": {
+    "cells": {
+      "0-3": "n",
+      "0-8": "n",
+      "1-3": "s",
+      "1-4": "n",
+      "1-6": "n",
+      "1-7": "s",
+      "2-3": "n",
+      "2-5": "n",
+      "2-6": "n",
+      "2-8": "n",
+      "3-3": "n",
+      "3-4": "n",
+      "3-5": "n",
+      "3-6": "n",
+      "3-7": "n",
+      "4-3": "n",
+      "4-4": "s",
+      "4-7": "s",
+      "4-8": "n",
+      "5-3": "n",
+      "5-7": "n",
+      "6-3": "n",
+      "6-4": "n",
+      "6-7": "n",
+      "6-8": "n",
+      "7-3": "n",
+      "7-4": "n",
+      "7-6": "n",
+      "7-7": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "0-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "0-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "2-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "8": {
+    "cells": {
+      "1-3": "n",
+      "1-4": "n",
+      "1-6": "n",
+      "1-7": "n",
+      "2-2": "s",
+      "2-3": "n",
+      "2-4": "n",
+      "2-5": "n",
+      "2-6": "n",
+      "2-7": "n",
+      "2-8": "n",
+      "2-9": "s",
+      "3-3": "n",
+      "3-5": "n",
+      "3-7": "n",
+      "4-2": "n",
+      "4-3": "n",
+      "4-4": "s",
+      "4-7": "s",
+      "4-8": "n",
+      "4-9": "n",
+      "5-3": "n",
+      "5-5": "n",
+      "5-7": "n",
+      "6-3": "n",
+      "6-5": "n",
+      "6-6": "n",
+      "6-8": "n",
+      "7-2": "s",
+      "7-3": "n",
+      "7-7": "n",
+      "7-8": "s",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-9": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "3-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-9": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-2": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "7-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      }
+    }
+  },
+  "9": {
+    "cells": {
+      "0-4": "n",
+      "0-7": "n",
+      "1-3": "n",
+      "1-4": "n",
+      "1-6": "n",
+      "1-7": "n",
+      "2-3": "n",
+      "2-5": "n",
+      "2-6": "n",
+      "2-8": "n",
+      "3-2": "s",
+      "3-4": "n",
+      "3-5": "n",
+      "3-6": "n",
+      "3-8": "s",
+      "4-2": "n",
+      "4-4": "n",
+      "4-7": "n",
+      "4-9": "n",
+      "5-4": "s",
+      "5-6": "s",
+      "6-5": "n",
+      "6-6": "n",
+      "7-2": "n",
+      "7-3": "n",
+      "7-4": "n",
+      "7-6": "n",
+      "7-7": "n",
+      "7-8": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "0-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "0-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-9": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-6": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "6-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "10": {
+    "cells": {
+      "1-2": "n",
+      "1-3": "n",
+      "1-4": "n",
+      "1-6": "n",
+      "1-7": "n",
+      "1-8": "n",
+      "2-3": "s",
+      "2-5": "n",
+      "2-6": "n",
+      "2-8": "s",
+      "3-2": "n",
+      "3-4": "n",
+      "3-6": "n",
+      "3-8": "n",
+      "4-3": "n",
+      "4-5": "n",
+      "4-6": "n",
+      "4-8": "n",
+      "5-1": "n",
+      "5-2": "s",
+      "5-5": "n",
+      "5-8": "s",
+      "5-9": "n",
+      "6-3": "n",
+      "6-8": "n",
+      "7-1": "n",
+      "7-2": "n",
+      "7-4": "n",
+      "7-5": "n",
+      "7-6": "n",
+      "7-8": "n",
+      "7-9": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "2-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "3-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-2": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-9": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-9": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "11": {
+    "cells": {
+      "1-2": "n",
+      "1-4": "n",
+      "1-5": "n",
+      "1-7": "n",
+      "2-2": "s",
+      "2-3": "n",
+      "2-4": "n",
+      "2-5": "s",
+      "2-6": "n",
+      "2-7": "n",
+      "2-8": "s",
+      "3-2": "n",
+      "3-3": "n",
+      "3-6": "n",
+      "3-7": "n",
+      "4-3": "n",
+      "4-4": "s",
+      "4-6": "s",
+      "4-7": "n",
+      "5-1": "n",
+      "5-2": "n",
+      "5-3": "n",
+      "5-6": "n",
+      "5-7": "n",
+      "5-8": "n",
+      "6-3": "n",
+      "6-4": "n",
+      "6-5": "s",
+      "6-6": "n",
+      "6-7": "n",
+      "7-1": "n",
+      "7-2": "s",
+      "7-4": "n",
+      "7-5": "n",
+      "7-7": "s",
+      "7-8": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-2": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "2-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "2-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "3-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-6": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "6-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-2": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "7-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "12": {
+    "cells": {
+      "0-4": "n",
+      "0-7": "n",
+      "1-2": "n",
+      "1-3": "s",
+      "1-5": "s",
+      "1-7": "s",
+      "1-8": "n",
+      "2-4": "n",
+      "2-5": "n",
+      "2-6": "n",
+      "2-7": "n",
+      "2-8": "n",
+      "3-2": "n",
+      "3-3": "n",
+      "3-7": "n",
+      "3-8": "n",
+      "4-3": "s",
+      "4-5": "n",
+      "4-6": "n",
+      "4-8": "s",
+      "5-2": "n",
+      "5-3": "n",
+      "5-4": "n",
+      "5-5": "s",
+      "5-6": "n",
+      "5-7": "n",
+      "5-8": "n",
+      "6-3": "n",
+      "6-8": "n",
+      "7-2": "n",
+      "7-3": "s",
+      "7-4": "n",
+      "7-6": "n",
+      "7-7": "s",
+      "7-8": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "0-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "0-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "13": {
+    "cells": {
+      "1-1": "n",
+      "1-2": "s",
+      "1-4": "n",
+      "1-5": "n",
+      "1-7": "s",
+      "1-8": "n",
+      "2-2": "n",
+      "2-3": "n",
+      "2-5": "n",
+      "2-7": "n",
+      "2-8": "n",
+      "3-1": "n",
+      "3-2": "n",
+      "3-3": "n",
+      "3-4": "n",
+      "3-5": "n",
+      "3-6": "n",
+      "3-7": "n",
+      "3-8": "n",
+      "4-2": "s",
+      "4-4": "s",
+      "4-6": "s",
+      "4-8": "s",
+      "5-1": "n",
+      "5-2": "n",
+      "5-4": "n",
+      "5-5": "n",
+      "5-7": "n",
+      "5-8": "n",
+      "6-2": "n",
+      "6-5": "n",
+      "6-8": "n",
+      "7-1": "s",
+      "7-2": "n",
+      "7-4": "n",
+      "7-5": "n",
+      "7-7": "n",
+      "7-8": "s",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-2": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-2": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-6": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-1": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "7-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      }
+    }
+  },
+  "14": {
+    "cells": {
+      "0-5": "n",
+      "0-6": "n",
+      "1-2": "s",
+      "1-3": "n",
+      "1-5": "n",
+      "1-7": "n",
+      "1-8": "s",
+      "2-3": "n",
+      "2-4": "n",
+      "2-7": "n",
+      "2-8": "n",
+      "3-3": "n",
+      "3-4": "s",
+      "3-6": "s",
+      "3-7": "n",
+      "4-3": "n",
+      "4-8": "n",
+      "5-2": "n",
+      "5-3": "s",
+      "5-5": "s",
+      "5-7": "s",
+      "5-8": "n",
+      "6-5": "n",
+      "6-6": "n",
+      "7-2": "n",
+      "7-3": "s",
+      "7-4": "n",
+      "7-6": "n",
+      "7-7": "s",
+      "7-8": "n",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "0-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "0-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-2": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "2-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "3-6": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "3-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "7-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      }
+    }
+  },
+  "15": {
+    "cells": {
+      "1-3": "s",
+      "1-4": "n",
+      "1-5": "n",
+      "1-6": "s",
+      "2-3": "n",
+      "2-4": "n",
+      "2-6": "n",
+      "2-7": "n",
+      "3-2": "n",
+      "3-4": "n",
+      "3-5": "n",
+      "3-7": "n",
+      "4-2": "s",
+      "4-3": "n",
+      "4-5": "s",
+      "4-7": "n",
+      "4-8": "s",
+      "5-2": "n",
+      "5-3": "n",
+      "5-6": "n",
+      "5-7": "n",
+      "6-1": "n",
+      "6-2": "n",
+      "6-4": "s",
+      "6-6": "s",
+      "6-8": "n",
+      "6-9": "n",
+      "7-1": "s",
+      "7-2": "n",
+      "7-3": "n",
+      "7-4": "n",
+      "7-5": "n",
+      "7-6": "n",
+      "7-7": "n",
+      "7-8": "s",
+      "1-10": "i",
+      "2-0": "i",
+      "5-10": "i"
+    },
+    "details": {
+      "1-3": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "1-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "1-6": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "2-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "2-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "3-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-2": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-5": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "4-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "4-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "5-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "5-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-1": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-4": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "6-6": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "6-8": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "6-9": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-1": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      },
+      "7-2": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-3": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-4": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-5": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-6": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-7": {
+        "stat": "normalAttack",
+        "ov": [
+          1,
+          2,
+          3
+        ],
+        "av": [
+          4,
+          10,
+          16,
+          24,
+          36,
+          52
+        ]
+      },
+      "7-8": {
+        "stat": "monsterAttack",
+        "ov": [
+          2,
+          4,
+          6
+        ],
+        "av": [
+          6,
+          15,
+          24,
+          36,
+          54,
+          78
+        ]
+      }
+    }
+  }
+}

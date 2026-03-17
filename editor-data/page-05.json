@@ -1,0 +1,811 @@
+{
+  "cells": {
+    "1-4": "n",
+    "1-5": "n",
+    "2-4": "n",
+    "2-5": "s",
+    "2-6": "n",
+    "3-3": "n",
+    "3-6": "n",
+    "4-3": "n",
+    "4-4": "s",
+    "4-6": "s",
+    "4-7": "n",
+    "5-3": "n",
+    "5-6": "n",
+    "6-2": "n",
+    "6-4": "n",
+    "6-5": "s",
+    "6-6": "n",
+    "6-8": "n",
+    "7-1": "n",
+    "7-2": "n",
+    "7-3": "n",
+    "7-6": "n",
+    "7-7": "n",
+    "7-8": "n",
+    "1-10": "i",
+    "2-0": "i",
+    "5-10": "i"
+  },
+  "details": {
+    "1-4": {
+      "stat": "hpNaturalRecovery",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "1-5": {
+      "stat": "skillAccuracy",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "2-4": {
+      "stat": "maxHp",
+      "ov": [
+        4,
+        8,
+        12
+      ],
+      "av": [
+        4,
+        12,
+        20,
+        32,
+        44,
+        60
+      ]
+    },
+    "2-5": {
+      "stat": "monsterCritical",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "2-6": {
+      "stat": "maxMp",
+      "ov": [
+        2,
+        3,
+        5
+      ],
+      "av": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23
+      ]
+    },
+    "3-3": {
+      "stat": "playerAttack",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "3-6": {
+      "stat": "playerDefense",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "4-3": {
+      "stat": "playerAttack",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "4-4": {
+      "stat": "monsterDefense",
+      "ov": [
+        2,
+        4,
+        6
+      ],
+      "av": [
+        2,
+        6,
+        10,
+        16,
+        22,
+        30
+      ]
+    },
+    "4-6": {
+      "stat": "monsterAttack",
+      "ov": [
+        2,
+        4,
+        6
+      ],
+      "av": [
+        6,
+        15,
+        24,
+        36,
+        54,
+        78
+      ]
+    },
+    "4-7": {
+      "stat": "maxMp",
+      "ov": [
+        2,
+        3,
+        5
+      ],
+      "av": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23
+      ]
+    },
+    "5-3": {
+      "stat": "maxHp",
+      "ov": [
+        4,
+        8,
+        12
+      ],
+      "av": [
+        4,
+        12,
+        20,
+        32,
+        44,
+        60
+      ]
+    },
+    "5-6": {
+      "stat": "maxMp",
+      "ov": [
+        2,
+        3,
+        5
+      ],
+      "av": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23
+      ]
+    },
+    "6-2": {
+      "stat": "skillEvasion",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "6-4": {
+      "stat": "maxMp",
+      "ov": [
+        2,
+        3,
+        5
+      ],
+      "av": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23
+      ]
+    },
+    "6-5": {
+      "stat": "monsterCriticalResist",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "6-6": {
+      "stat": "maxHp",
+      "ov": [
+        4,
+        8,
+        12
+      ],
+      "av": [
+        4,
+        12,
+        20,
+        32,
+        44,
+        60
+      ]
+    },
+    "6-8": {
+      "stat": "hpNaturalRecovery",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "7-1": {
+      "stat": "maxHp",
+      "ov": [
+        4,
+        8,
+        12
+      ],
+      "av": [
+        4,
+        12,
+        20,
+        32,
+        44,
+        60
+      ]
+    },
+    "7-2": {
+      "stat": "normalAttackAccuracy",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "7-3": {
+      "stat": "maxMp",
+      "ov": [
+        2,
+        3,
+        5
+      ],
+      "av": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23
+      ]
+    },
+    "7-6": {
+      "stat": "maxHp",
+      "ov": [
+        4,
+        8,
+        12
+      ],
+      "av": [
+        4,
+        12,
+        20,
+        32,
+        44,
+        60
+      ]
+    },
+    "7-7": {
+      "stat": "normalAttackEvasion",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "7-8": {
+      "stat": "maxMp",
+      "ov": [
+        2,
+        3,
+        5
+      ],
+      "av": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23
+      ]
+    }
+  },
+  "settings": {
+    "normalOpenAnima": [
+      6,
+      12,
+      18
+    ],
+    "normalOpenAnimaGrade": [
+      1,
+      1,
+      1
+    ],
+    "normalOpenGold": [
+      2000,
+      4000,
+      6000
+    ],
+    "specialOpenAnima": [
+      15,
+      30,
+      45
+    ],
+    "specialOpenAnimaGrade": [
+      1,
+      1,
+      1
+    ],
+    "specialOpenGold": [
+      2000,
+      4000,
+      6000
+    ],
+    "normalAwakeningAnima": 6,
+    "normalAwakeningAnimaGrade": 1,
+    "specialAwakeningAnima": 15,
+    "specialAwakeningAnimaGrade": 1,
+    "normalAwakeningGold": 2000,
+    "specialAwakeningGold": 2000
+  },
+  "rewards": [
+    {
+      "threshold": 25,
+      "effects": [
+        {
+          "statType": "monsterAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 41,
+      "effects": [
+        {
+          "statType": "normalAttackDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 49,
+      "effects": [
+        {
+          "statType": "playerAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 56,
+      "effects": [
+        {
+          "statType": "monsterCriticalResist",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "threshold": 62,
+      "effects": [
+        {
+          "statType": "normalAttackEvasion",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 67,
+      "effects": [
+        {
+          "statType": "evasion",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 72,
+      "effects": [
+        {
+          "statType": "normalAttackAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 76,
+      "effects": [
+        {
+          "statType": "monsterAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 80,
+      "effects": [
+        {
+          "statType": "normalAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 83,
+      "effects": [
+        {
+          "statType": "mpNaturalRecovery",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "threshold": 86,
+      "effects": [
+        {
+          "statType": "monsterCritical",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "threshold": 89,
+      "effects": [
+        {
+          "statType": "normalAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 92,
+      "effects": [
+        {
+          "statType": "hpPotionRecovery",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "threshold": 95,
+      "effects": [
+        {
+          "statType": "monsterAttack",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 98,
+      "effects": [
+        {
+          "statType": "evasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 101,
+      "effects": [
+        {
+          "statType": "playerEvasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 104,
+      "effects": [
+        {
+          "statType": "skillAttack",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 107,
+      "effects": [
+        {
+          "statType": "monsterAccuracy",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 110,
+      "effects": [
+        {
+          "statType": "monsterEvasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 113,
+      "effects": [
+        {
+          "statType": "mpNaturalRecovery",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "threshold": 116,
+      "effects": [
+        {
+          "statType": "monsterDefense",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 119,
+      "effects": [
+        {
+          "statType": "normalAttackDefense",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 121,
+      "effects": [
+        {
+          "statType": "playerAccuracy",
+          "value": 15
+        },
+        {
+          "statType": "monsterCriticalResist",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "threshold": 123,
+      "effects": [
+        {
+          "statType": "skillDefense",
+          "value": 20
+        },
+        {
+          "statType": "playerDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 125,
+      "effects": [
+        {
+          "statType": "mpNaturalRecovery",
+          "value": 5
+        },
+        {
+          "statType": "monsterDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 127,
+      "effects": [
+        {
+          "statType": "skillAccuracy",
+          "value": 20
+        },
+        {
+          "statType": "normalAttackAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 129,
+      "effects": [
+        {
+          "statType": "hpPotionRecovery",
+          "value": 5
+        },
+        {
+          "statType": "playerAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 131,
+      "effects": [
+        {
+          "statType": "skillEvasion",
+          "value": 25
+        },
+        {
+          "statType": "skillEvasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 133,
+      "effects": [
+        {
+          "statType": "normalAttackAccuracy",
+          "value": 25
+        },
+        {
+          "statType": "normalAttack",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 134,
+      "effects": [
+        {
+          "statType": "accuracy",
+          "value": 25
+        },
+        {
+          "statType": "hpPotionRecovery",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "threshold": 135,
+      "effects": [
+        {
+          "statType": "playerAttack",
+          "value": 30
+        },
+        {
+          "statType": "evasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 136,
+      "effects": [
+        {
+          "statType": "normalAttackEvasion",
+          "value": 30
+        },
+        {
+          "statType": "playerEvasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 137,
+      "effects": [
+        {
+          "statType": "playerDefense",
+          "value": 30
+        },
+        {
+          "statType": "skillAttack",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 138,
+      "effects": [
+        {
+          "statType": "hpPotionRecoveryRate",
+          "value": 2.3
+        },
+        {
+          "statType": "skillAccuracy",
+          "value": 15
+        }
+      ]
+    }
+  ]
+}

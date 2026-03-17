@@ -1,0 +1,447 @@
+{
+  "cells": {
+    "2-3": "n",
+    "2-7": "n",
+    "3-3": "n",
+    "3-4": "n",
+    "3-6": "n",
+    "4-4": "n",
+    "4-5": "s",
+    "4-6": "n",
+    "5-3": "n",
+    "5-5": "n",
+    "5-6": "n",
+    "6-3": "n",
+    "6-7": "n",
+    "1-10": "i",
+    "2-0": "i",
+    "5-10": "i"
+  },
+  "details": {
+    "2-3": {
+      "stat": "monsterAttack",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "2-7": {
+      "stat": "monsterDefense",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "3-3": {
+      "stat": "hpPotionRecovery",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "3-4": {
+      "stat": "playerAccuracy",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "3-6": {
+      "stat": "hpNaturalRecovery",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "4-4": {
+      "stat": "maxMp",
+      "ov": [
+        2,
+        3,
+        5
+      ],
+      "av": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23
+      ]
+    },
+    "4-5": {
+      "stat": "mpNaturalRecovery",
+      "ov": [
+        2,
+        4,
+        6
+      ],
+      "av": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ]
+    },
+    "4-6": {
+      "stat": "maxHp",
+      "ov": [
+        4,
+        8,
+        12
+      ],
+      "av": [
+        4,
+        12,
+        20,
+        32,
+        44,
+        60
+      ]
+    },
+    "5-3": {
+      "stat": "maxMp",
+      "ov": [
+        2,
+        3,
+        5
+      ],
+      "av": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23
+      ]
+    },
+    "5-5": {
+      "stat": "playerEvasion",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "5-6": {
+      "stat": "maxHp",
+      "ov": [
+        4,
+        8,
+        12
+      ],
+      "av": [
+        4,
+        12,
+        20,
+        32,
+        44,
+        60
+      ]
+    },
+    "6-3": {
+      "stat": "normalAttackAccuracy",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    },
+    "6-7": {
+      "stat": "normalAttackEvasion",
+      "ov": [
+        1,
+        2,
+        3
+      ],
+      "av": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        15
+      ]
+    }
+  },
+  "settings": {
+    "normalOpenAnima": [
+      2,
+      4,
+      6
+    ],
+    "normalOpenAnimaGrade": [
+      1,
+      1,
+      1
+    ],
+    "normalOpenGold": [
+      1500,
+      3000,
+      4500
+    ],
+    "specialOpenAnima": [
+      5,
+      10,
+      15
+    ],
+    "specialOpenAnimaGrade": [
+      1,
+      1,
+      1
+    ],
+    "specialOpenGold": [
+      1500,
+      3000,
+      4500
+    ],
+    "normalAwakeningAnima": 2,
+    "normalAwakeningAnimaGrade": 1,
+    "specialAwakeningAnima": 5,
+    "specialAwakeningAnimaGrade": 1,
+    "normalAwakeningGold": 1500,
+    "specialAwakeningGold": 1500
+  },
+  "rewards": [
+    {
+      "threshold": 12,
+      "effects": [
+        {
+          "statType": "normalAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 23,
+      "effects": [
+        {
+          "statType": "skillDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 28,
+      "effects": [
+        {
+          "statType": "normalAttackDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 33,
+      "effects": [
+        {
+          "statType": "skillAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 37,
+      "effects": [
+        {
+          "statType": "normalAttackAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 41,
+      "effects": [
+        {
+          "statType": "hpPotionRecovery",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "threshold": 44,
+      "effects": [
+        {
+          "statType": "normalAttackAccuracy",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 47,
+      "effects": [
+        {
+          "statType": "skillEvasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 50,
+      "effects": [
+        {
+          "statType": "normalAttackEvasion",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 53,
+      "effects": [
+        {
+          "statType": "skillAccuracy",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "threshold": 56,
+      "effects": [
+        {
+          "statType": "normalAttack",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "threshold": 58,
+      "effects": [
+        {
+          "statType": "skillAttack",
+          "value": 20
+        },
+        {
+          "statType": "skillAccuracy",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 60,
+      "effects": [
+        {
+          "statType": "playerDefense",
+          "value": 20
+        },
+        {
+          "statType": "skillAttack",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 62,
+      "effects": [
+        {
+          "statType": "normalAttackDefense",
+          "value": 25
+        },
+        {
+          "statType": "normalAttackEvasion",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 63,
+      "effects": [
+        {
+          "statType": "skillDefense",
+          "value": 25
+        },
+        {
+          "statType": "skillEvasion",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 64,
+      "effects": [
+        {
+          "statType": "playerAttack",
+          "value": 25
+        },
+        {
+          "statType": "playerDefense",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "threshold": 65,
+      "effects": [
+        {
+          "statType": "hpPotionRecoveryRate",
+          "value": 2
+        },
+        {
+          "statType": "normalAttack",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}
